@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+### User Story #1: 
+My choropleth should have a title with a corresponding id="title".
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### User Story #2:
+ My choropleth should have a description element with a corresponding id="description".
 
-## Available Scripts
+### User Story #3:
+ My choropleth should have counties with a corresponding class="county" that represent the data.
 
-In the project directory, you can run:
+### User Story #4:
+ There should be at least 4 different fill colors used for the counties.
 
-### `npm start`
+### User Story #5:
+ My counties should each have data-fips and data-education properties containing their corresponding fips and education values.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### User Story #6:
+ My choropleth should have a county for each provided data point.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Story #7:
+ The counties should have data-fips and data-education values that match the sample data.
 
-### `npm test`
+### User Story #8:
+ My choropleth should have a legend with a corresponding id="legend".
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### User Story #9:
+ There should be at least 4 different fill colors used for the legend.
 
-### `npm run build`
+### User Story #10:
+ I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### User Story #11: 
+My tooltip should have a data-education property that corresponds to the data-education of the active area.
